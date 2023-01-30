@@ -2,6 +2,11 @@
   - [Description](#description)
   - [Prerequistes](#prerequistes)
   - [Installation](#installation)
+  - [Screenshots](#screenshots)
+  - [Technologies used](#technologies-used)
+  - [Test](#test)
+  - [License](#license)
+  - [Collaboration](#collaboration)
 
 
 # Employee-tracker
@@ -12,8 +17,9 @@ This is a content management system which can be used to manage a company's empl
 ## Prerequistes 
 - Node.js
 - Access to CLI 
-- Mysql 
+- Mysql server running on local machine 
 - This Repo Cloned  
+  
 ## Installation 
 1. Find the cloned file on your local machine 
 2. Open integrated terminal in the folder 
@@ -23,5 +29,25 @@ This is a content management system which can be used to manage a company's empl
 6. Enter `source db/seed.sql` to populate the pre-filled employee sheets 
 7. Enter `quit` to quit mysql cli and back to bash 
 8. Type in `node index` to run program 
-9. Select one of the options 
-10. 
+9. Select one of the options. 
+10. Follow through the steps to use the application. 
+  
+## Screenshots 
+
+## Technologies used 
+ ➡️ 📜 [JavaScript](#-javascript)
+
+<img height="50" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png"> |     Node.js     | `https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png` 
+
+ ➡️ 📜 inquirer
+<img height="50" src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png"> |      MySQL      | `https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png` |
+
+
+## Test 
+No tests 
+## License 
+GNU GENERAL PUBLIC LICENSE
+
+## Collaboration 
+Created by Eileen Ma
+If you have any questions, please contact me at Eileenma97@gmail.com
