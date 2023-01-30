@@ -1,12 +1,12 @@
-const inquier = require("inquirer")
+const inquirer= require("inquirer")
 const mysql = require('mysql2');
 const util = require('util');
 
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'rootroot',
-  database: 'employees'
+  password: 'Nala1007',
+  database: 'db_employees'
 })
 
 connection.connect();
@@ -89,7 +89,7 @@ function viewAllEmployees () {
     })
 }
 function addADepartment () {
-    inquier.prompt([
+    inquirer.prompt([
         {
             type: "input",
             name: "department_name",

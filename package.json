@@ -1,0 +1,24 @@
+{
+  "name": "employeemgmt",
+  "version": "1.0.0",
+  "description": "- [Employee-tracker](#employee-tracker)   - [Description](#description)   - [Prerequistes](#prerequistes)   - [Installation](#installation)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMA1970/employeeMGMT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMA1970/employeeMGMT/issues"
+  },
+  "homepage": "https://github.com/EMA1970/employeeMGMT#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.0.1"
+  }
+}
