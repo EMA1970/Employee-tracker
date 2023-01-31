@@ -2,6 +2,7 @@ DROP DATABASE if exist db_employees;
 CREATE DATABASE db_employees;
 USE db_employees;
 
+
 -- depart with id & name 
 
 CREATE TABLE department(
