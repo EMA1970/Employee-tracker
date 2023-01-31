@@ -32,7 +32,11 @@ This is a content management system which can be used to manage a company's empl
 9. Select one of the options. 
 10. Follow through the steps to use the application. 
   
-## Screenshots 
+## ScreenRecording 
+
+
+https://user-images.githubusercontent.com/114694158/215846776-2b72a25d-0010-4a1c-ade3-a2da761258d3.mp4
+
 
 ## Technologies used 
  ➡️ 📜 [JavaScript](#-javascript)
