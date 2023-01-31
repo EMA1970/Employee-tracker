@@ -43,12 +43,12 @@ https://user-images.githubusercontent.com/114694158/215846776-2b72a25d-0010-4a1c
 
 <img height="50" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png"> |
 
-Node.js `https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png` 
+Node.js
 
  ➡️ 📜 inquirer
 <img height="50" src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png"> |    
 
-MySQL  `https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png` |
+MySQL 
 
 
 ## Test 
