@@ -1,4 +1,4 @@
-const inquirer= require("inquirer")
+const inquirer= require('inquirer')
 const mysql = require('mysql2');
 const util = require('util');
 
@@ -17,30 +17,30 @@ connection.query = util.promisify(connection.query);
 function menu () {
     inquirer 
     .prompt (menuQs)
-    .then (answer => {
-        if (answer.menu === "View All Departments") {
-            viewDepartment()
+    .then (answers => {
+        if (answers.menu === "View All Departments") {
+            viewDepartments()
         } 
-        if (answer.menu === "View All Roles") {
+        if (answers.menu === "View All Roles") {
             viewAllRoles()
         } 
-        if (answer.menu === "View All Employees") {
+        if (answers.menu === "View All Employees") {
             viewAllEmployees()
         } 
-        if (answer.menu === "Add a Department") {
+        if (answers.menu === "Add a Department") {
             addADepartment()
         } 
-        if (answer.menu === "Add a Role") {
+        if (answers.menu === "Add a Role") {
             addARole()
         } 
-        if (answer.menu === "Add an Employee") {
+        if (answers.menu === "Add an Employee") {
             addAEmployee()
         } 
-        if (answer.menu === "Update Employee Role") {
+        if (answers.menu === "Update Employee Role") {
             updateAnEmployee()
         } 
        
-        if (answer.menu === "Exit" ){
+        if (answers.menu === "Exit" ){
             process.exit()
         }
 
@@ -67,7 +67,7 @@ const menuQs = [
 
 
 // create function for view department 
-function viewDepartment () {
+function viewDepartments () {
     connection.query("select * from department")
     .then (rows => {
         console.log(rows)
@@ -107,7 +107,7 @@ function addADepartment () {
     })
 }
 function addARole () {
-    inquier.prompt([
+    inquirer.prompt([
         {
             type: "input",
             name: "role_title",
@@ -135,7 +135,7 @@ function addARole () {
     })
 }
 function addAEmployee () {
-    inquier.prompt([
+    inquirer.prompt([
         {
             type: "input",
             name: "first_name",
@@ -168,7 +168,7 @@ function addAEmployee () {
     })
 }
 function updateAnEmployee () {
-    inquier.prompt([
+    inquirer.prompt([
         {
             type: "input",
             name: "employee_id",
@@ -190,3 +190,5 @@ function updateAnEmployee () {
         
     })
 }
+
+menu();
